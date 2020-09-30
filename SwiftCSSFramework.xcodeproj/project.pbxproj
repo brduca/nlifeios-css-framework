@@ -187,7 +187,7 @@
 					B5C01B351D12F44900E17566 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = TPAFX43YU9;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1200;
 					};
 				};
 			};
@@ -196,6 +196,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -265,8 +266,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
-				VALID_ARCHS = "arm64 armv7 armv7s";
+				SWIFT_VERSION = 5.0;
+				VALID_ARCHS = "arm64 arm64e";
 			};
 			name = Debug;
 		};
@@ -291,8 +292,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
-				VALID_ARCHS = "arm64 armv7 armv7s";
+				SWIFT_VERSION = 5.0;
+				VALID_ARCHS = "arm64 arm64e";
 			};
 			name = Release;
 		};

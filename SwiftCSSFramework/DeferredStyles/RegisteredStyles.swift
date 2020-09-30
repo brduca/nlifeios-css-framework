@@ -10,7 +10,7 @@ import Foundation
 
 public class Styles
 {
-    private static private(set) var all: [RegistrableStyle] = []
+    private static var all: [RegistrableStyle] = []
     private static var stylesDictionary = Dictionary<String, Dictionary<String,[RegistrableStyle]>>()
     private static var typeMapping = Dictionary<String, ClassMapping>()
     private static var isReady = false
